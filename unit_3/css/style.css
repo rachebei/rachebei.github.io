@@ -11,14 +11,20 @@ hr {
 }
 
 h1 {
-	color: #000;
+	color: #8A730A;
+}
+
+h3 {
+	color: #8A730A;
 }
 
 #slogan {
 	font-style: italic;
+	color: #8A730A;
 }
 
 ul {
 	text-align: center;
 	list-style-type: none;
+	font-weight: bold;
 }
