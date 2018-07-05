@@ -1,0 +1,156 @@
+@import url(https://fonts.googleapis.com/css?family=Averia+Serif+Libre|Lato);
+* {margin: 0; padding: 0; box-sizing: border-box;}
+
+body {
+	font-family: 'Lato', sans-serif;
+	line-height: 1.5em;
+	font-size: 18px;
+}
+
+header { 
+	border: 1px black solid;
+	padding: 20px;
+}
+
+nav {
+	float: right;
+	font-family: 'Averia Serif Libre', cursive;
+	font-size: .8em;
+
+}
+hr {
+	width: 500px;
+}
+
+h1 {
+	color: #000;
+	font-size: 4em;
+	font-family: 'Averia Serif Libre', cursive;
+	padding: .8em 0 0 0;
+}
+
+h3 {
+	font-family: 'Averia Serif Libre', cursive;
+	color: #8A730A;
+	text-align: center;
+	font-variant: small-caps;
+	font-size: 2em;
+	padding-bottom: 2em;
+
+}
+
+#slogan {
+	font-style: italic;
+	color: #000;
+	font-size: 36px;
+	width: 33%;
+	line-height: 2em;
+}
+
+#intro {
+	background-image: url(../images/rawr.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 20px;
+	height: 100vh;
+	font-size: 20px;
+	line-height: 5em;
+	border: 1px black solid;
+}
+#overview {
+	padding-top: 1.5em;
+	padding-bottom: 1.5em;
+	background-color: #FFF;
+	font-size: 18px;
+	width: 80%
+	line-height: 2em;
+	break-after: 1.2em;
+	margin: 3em;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#services {
+	padding: 20px;
+	text-align: center;
+	background-color: #E2F5FF;
+	border: 1px black solid;
+}
+
+#updates {
+	padding: 2em;
+	text-align: center;
+	background-color: ##E2F5FF;
+	border: 1px black solid;
+	display: inline-block center;
+}
+
+.container {
+	padding: 5em;
+	background-color: #E2F5FF;
+	max-width: 100%;
+	margin: auto;
+}
+
+.column{
+	float: left;
+	max-width: 25%;
+	margin: auto;
+	position: relative;
+}
+
+#blog {
+	padding-top: 1.5em;
+	padding-bottom: 1.5em;
+	width: 1200px;
+	margin: auto;
+	border: 1px black solid;
+}
+
+#blog img {
+	width: 33.33%;
+	float: left;
+	padding: 1em;
+}
+
+.intro {
+	color: #FFF;
+	padding: 2em;
+	height: 100%
+	border-radius: .5em;
+}
+
+.clearfix:after {
+	clear: both;
+	display: block;
+	content: "";
+}
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+section {
+	display: block;
+}
+
+.column-left {
+	float: left; width: 33%;
+}
+
+.column-center {
+	display: inline-block; width: 33%;
+}
+
+.column-right {
+	float: right; width: 33%;
+}
+
+footer {
+	text-align: center;
+	padding: 1em 0;
+	border: 1px black solid;
+}
