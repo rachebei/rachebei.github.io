@@ -88,15 +88,15 @@ h3 {
 .container {
 	padding: 5em;
 	background-color: #E2F5FF;
-	max-width: 100%;
+	max-width: 1200px;
 	margin: auto;
 }
 
 .column{
 	float: left;
-	max-width: 25%;
-	margin: auto;
-	position: relative;
+	max-width: 300px;
+	margin: 10px;
+	padding: 10px
 }
 
 #blog {
