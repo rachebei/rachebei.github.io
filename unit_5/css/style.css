@@ -95,7 +95,7 @@ h3 {
 
 .column{
 	float: left;
-	max-width: 300px;
+	max-width: 25%;
 	margin: 10px;
 	padding: 10px
 }
