@@ -75,6 +75,7 @@ h3 {
 	text-align: center;
 	background-color: #E2F5FF;
 	border: 1px black solid;
+
 }
 
 #updates {
@@ -88,7 +89,7 @@ h3 {
 .container {
 	padding: 5em;
 	background-color: #E2F5FF;
-	max-width: 1200px;
+	max-width: 100%;
 	margin: auto;
 	clear: both;
 }
