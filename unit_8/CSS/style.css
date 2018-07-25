@@ -50,13 +50,13 @@ h1 {
 	padding: 1em;
 }
 
-h3 {
+h2 {
 	font-family: 'Averia Serif Libre', cursive;
 	color: #8A730A;
 	text-align: center;
 	font-variant: small-caps;
 	font-size: 3em;
-	padding-bottom: 2em;
+	padding: 1em;
 
 }
 
@@ -72,6 +72,7 @@ h3 {
 	background-image: url(../images/rawr.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
+	width: 99%
 	padding: 20px;
 	height: 100vh;
 	font-size: 20px;
@@ -80,11 +81,12 @@ h3 {
 
 #intro a {
 	font-family: 'Averia Serif Libre', cursive;
-	border-radius: .25em;
+	border-radius: .5em;
 	padding: 1em 2em;
 	box-shadow: 1px 1px 3px rgba(0,0,0,.5);
 	text-decoration: none;
 	color: #000000;
+	background-color: #878228;
 	display: inline-block;
 }
 
@@ -97,23 +99,20 @@ h3 {
 	font-size: 0;
 }
 #overview {
-	padding: 1.5em;
+	padding: 1em;
 	background-color: #FFFFFF;
 	background-size: cover;
-	font-size: 18px;
-	width: 50%;
+	font-size: 20px;
+	width: 100%;
 	color: #000;
-	text-align: left;
+	text-align: justify;
 	float: left;
-	padding: 2em;
 }
 
-#overview img {
-	float: right;
-	width: 50%;
-	padding: 1em;
-	border-radius: 1em;
+#overview p{
+	padding: 0 5em 5em 5em;
 }
+
 #services {
 	padding: 20px;
 	text-align: center;
@@ -128,7 +127,12 @@ h3 {
 }
 
 #services img {
-	size: 100%
+	size: 250px;
+}
+
+#services p {
+	padding: 1em;
+	text-align: justify;
 }
 
 #updates {
@@ -174,7 +178,7 @@ h3 {
 #blog {
 	padding-top: 5em;
 	padding-bottom: 5em;
-	width: 1200px;
+	width: 100%;
 	margin: auto;
 }
 
