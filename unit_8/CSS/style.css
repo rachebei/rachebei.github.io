@@ -79,6 +79,7 @@ h3 {
 	height: 100vh;
 	font-size: 18px;
 	line-height: 5em;
+	text-shadow: 2px;
 }
 
 #intro a {
