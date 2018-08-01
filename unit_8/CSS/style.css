@@ -65,7 +65,7 @@ h3 {
 #slogan {
 	font-style: italic;
 	color: #000;
-	font-size: 36px;
+	font-size: 2em;
 	width: 33%;
 	line-height: 2em;
 }
@@ -79,7 +79,6 @@ h3 {
 	height: 100vh;
 	font-size: 18px;
 	line-height: 5em;
-	text-shadow: 2px;
 }
 
 #intro a {
@@ -205,6 +204,7 @@ h3 {
 
 #recent img {
 	max-width: 250px;
+	min-width: 150px;
 	width: 100%;
 	border-radius: .5em;
 }
@@ -224,4 +224,89 @@ footer {
 	float: right;
 	padding: 1em 0;
 	font-size: .8em;
+}
+
+@media only screen and (max-width: 1151px) {
+	.column {
+		max-width: 90%;
+	}
+}
+
+@media only screen and (max-width: 941px) {
+nav a {
+	display: block;
+	float: left;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(255,255,255, 0.25);
+}
+
+nav {
+	display: block;
+	float: left;
+	width: 100%;
+	background-color: rgba(255,255,255, 0.5);
+}
+
+#intro {
+	max-width: 100%;
+	height: auto;
+}
+
+#intro h1 {
+	font-size: 3em;
+}
+
+#slogan {
+	font-size: 1.5em;
+}
+}
+
+@media only screen and (max-width: 900px) {
+.column img {
+	max-width: 200px;
+	min-width: 150px;
+	width: 100%;
+	}
+
+.column {
+	float: left;
+	max-width: 100%;
+}
+
+}
+
+@media only screen and (max-width: 848px) {
+.blog {
+	width: 100%;
+	float: left;
+}
+
+#recent {
+	margin: 1em;
+}
+}
+
+@media only screen and (max-width: 662px) {
+#services {
+	padding: 2em;
+}
+}
+
+@media only screen and (max-width: 554px) {
+#services {
+	padding: 1em;
+}
+}
+
+@media only screen and (max-width: 521px) {
+.column img{
+	width: 100%;
+}
+}
+
+@media only screen and (max-width: 375px) {
+#intro {
+	padding: 0;
+}
 }
