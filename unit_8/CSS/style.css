@@ -74,7 +74,7 @@ h3 {
 	background-image: url(../images/rawr.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
-	width: 99%;
+	width: 100%;
 	padding: 20px;
 	height: 100vh;
 	font-size: 18px;
@@ -280,16 +280,27 @@ nav {
 .blog {
 	width: 100%;
 	float: left;
+	padding: 5px;
 }
 
 #recent {
 	margin: 1em;
+}
+
+#intro {
+	content: " ";
+	width: 100%;
+	background-position: center;
 }
 }
 
 @media only screen and (max-width: 662px) {
 #services {
 	padding: 2em;
+}
+
+#updates {
+	padding: 1em;
 }
 }
 
