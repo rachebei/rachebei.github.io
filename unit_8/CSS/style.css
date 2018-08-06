@@ -285,11 +285,6 @@ footer {
 #updates {
 	padding: 1em;
 }
-
-#updates img {
-	float: none;
-	margin: auto;
-}
 }
 
 @media only screen and (max-width: 554px) {
