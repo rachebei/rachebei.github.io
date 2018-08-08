@@ -20,6 +20,7 @@ nav {
 	font-size: 18px;
 	float: right;
 	display: block;
+	clear: both;
 
 }
 
@@ -65,8 +66,7 @@ h3 {
 #slogan {
 	color: #2B2B2B;
 	font-size: 2em;
-	width: 33%;
-	line-height: 2em;
+	width: 50%;
 }
 
 #intro {
@@ -131,6 +131,10 @@ h3 {
 	text-align: left;
 }
 
+#services h3 {
+	color: #FFF;
+}
+
 #services a {
 	text-decoration: underline;
 	color: #FFF;
@@ -139,6 +143,7 @@ h3 {
 #services img {
 	width: 100%;
 	max-width: 250px;
+	display: block;
 	margin: auto;
 }
 
@@ -197,7 +202,10 @@ h3 {
 
 #recent img {
 	width: 250px;
-	border-radius: .5em;
+	max-width: 100% 
+	border-radius: 1em;
+	display: block;
+	margin: auto;
 }
 
 .intro {
