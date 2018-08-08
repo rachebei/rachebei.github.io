@@ -199,6 +199,7 @@ h3 {
 	width: 33.3%;
 	padding: 1em;
 	float: left;
+	display: block;
 	margin: auto;
 }
 
