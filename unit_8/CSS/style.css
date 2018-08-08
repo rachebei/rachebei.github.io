@@ -204,8 +204,9 @@ h3 {
 
 #recent img {
 	width: 250px;
-	border-radius: 1em;
+	border-radius: .5em;
 	display: block;
+	margin: auto;
 }
 
 .intro {
